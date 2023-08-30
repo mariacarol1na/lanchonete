@@ -1,0 +1,40 @@
+.cabeçalho__menu-hamburguer {
+    width: 54px;
+    height: 54px;
+    background-image: url(../img/Menu.svg);
+    display: inline-block;
+    }
+
+
+
+.cabeçalho {
+      background-color: var(--branco);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+}
+
+.container {
+          display: flex;
+          align-items: center;
+        }
+.lista-menu{
+            display:none ;
+            position: absolute;
+            top: 100%;
+            width:40vw ;}
+.container--botao :checked ~ 
+ .lista-menu { 
+  display: block; }           
+.lista-menu__lanchoneteMMV,
+.lista-menu__item{ 
+  padding: 1em;
+  background-color: greenyellow;}
+  .lista-menu__lanchoneteMMV{ color: darkorange;}
+  .lista-menu__link{ 
+  background-image: linear-gradient(blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-transform: uppercase;}
