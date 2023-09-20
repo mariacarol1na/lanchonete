@@ -8,6 +8,7 @@
 
 body{
     background-color: var(--cor-de-fundo) ;
+    @import url("styeles/header.css");
 
 
 }
