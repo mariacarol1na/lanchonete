@@ -24,14 +24,12 @@
             position: absolute;
             top: 100%;
             width:40vw ;}
-.container--botao :checked ~ 
- .lista-menu { 
-  display: block; }           
-.lista-menu__lanchoneteMMV,
-.lista-menu__item{ 
+.container--botao :checked ~ .lista-menu { 
+  display: none; }           
+.lista-menu__titulo,.lista-menu__item{ 
   padding: 1em;
   background-color: greenyellow;}
-  .lista-menu__lanchoneteMMV{ color: darkorange;}
+  .lista-menu__titulo{ color: darkorange;}
   .lista-menu__link{ 
   background-image: linear-gradient(blue);
   -webkit-background-clip: text;
